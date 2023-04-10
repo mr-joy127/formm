@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Контакты - Название компании</title>
+  </head>
+  <body>
+    <h1>Контакты</h1>
+    <p>
+      Адрес: г. Москва, ул. Название улицы, д. 1, оф. 101<br />
+      Телефон: +7 (XXX) XXX-XX-XX<br />
+      Электронная почта: info@company.com
+    </p>
+    <form action="send_form.php" method="post">
+      <label for="name">Ваше имя:</label>
+      <input type="text" id="name" name="name" /><br />
+
+      <label for="email">Ваш e-mail:</label>
+      <input type="email" id="email" name="email" /><br />
+
+      <label for="message">Сообщение:</label>
+      <textarea id="message" name="message"></textarea><br />
+
+      <input type="submit" value="Отправить" />
+    </form>
+  </body>
+</html>
